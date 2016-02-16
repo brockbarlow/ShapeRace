@@ -5,7 +5,6 @@ public class P2 : MonoBehaviour
 {
     private Rigidbody playerTwo;
     public float speed = 10;
-    public Vector3 playerTwoPosition = new Vector3(0, 0, 0);
 
     void Start()
     {
@@ -13,16 +12,16 @@ public class P2 : MonoBehaviour
         playerTwo = GameObject.FindGameObjectWithTag("Player2").GetComponent<Rigidbody>();
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        if (gameObject.tag == "Player2")
-        {
-            if (Input.GetKey("i") || Input.GetKey("j") || Input.GetKey("k") || Input.GetKey("l"))
-            {
-                playerTwoPosition = new Vector3(Input.GetAxis("Horizontal2"), 0, Input.GetAxis("Vertical2"));
-                playerTwo.AddForce(playerTwoPosition * speed);
-            }
-        }
-        playerTwo.AddForce(playerTwoPosition * Time.deltaTime);
+
+            float h = Input.GetAxis("Horizontal2") * speed;
+            float v = Input.GetAxis("Vertical2") * speed;
+
+            gameObject.transform.position += transform.forward * (v * .02f);
+
+            gameObject.transform.localEulerAngles = new Vector3(0f,
+            transform.eulerAngles.y + ((h * speed) * Time.deltaTime), 0f);
+            transform.Rotate(Vector3.right, (speed * h) * Time.deltaTime);
     }
 }

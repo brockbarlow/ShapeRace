@@ -68,23 +68,23 @@ public class PowerUps : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        if (gameObject.tag == "Player")
-        {
-            if (Input.GetKey("space"))
-            {
-                if (nitro() != null)
-                {
-                    //gameObject.GetComponent<P1>(speed) = IncreasedSpeed;
-                }
-                else
-                {
+    //void Update()
+    //{
+    //    if (gameObject.tag == "Player")
+    //    {
+    //        if (Input.GetKey("space"))
+    //        {
+    //            if (nitro() != null)
+    //            {
+    //                gameObject.GetComponent<P1>(speed) = IncreasedSpeed;
+    //            }
+    //            else
+    //            {
                     
-                }
-            }
-        }
-    }
+    //            }
+    //        }
+    //    }
+    //}
   
    }
 
