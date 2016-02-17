@@ -7,9 +7,12 @@ public class P2MediumFinish : MonoBehaviour
 
     public bool finished = false;
     public bool finished2 = false;
+    public bool racePaused = false;
 
     void OnTriggerEnter(Collider other)
     {
+        racePaused = true;
+
         if (other.CompareTag("Player"))
         {
             finished = true;
@@ -17,6 +20,14 @@ public class P2MediumFinish : MonoBehaviour
         if (other.CompareTag("Player2"))
         {
             finished2 = true;
+        }
+    }
+
+    void Update()
+    {
+        if (racePaused == true)
+        {
+            Time.timeScale = 0.0f;
         }
     }
 

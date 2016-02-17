@@ -3,14 +3,7 @@ using System.Collections;
 
 public class P2 : MonoBehaviour
 {
-    private Rigidbody playerTwo;
     public float speed = 10;
-
-    void Start()
-    {
-        playerTwo = GetComponent<Rigidbody>();
-        playerTwo = GameObject.FindGameObjectWithTag("Player2").GetComponent<Rigidbody>();
-    }
 
     void Update()
     {
@@ -18,7 +11,7 @@ public class P2 : MonoBehaviour
             float h = Input.GetAxis("Horizontal2") * speed;
             float v = Input.GetAxis("Vertical2") * speed;
 
-            gameObject.transform.position += -transform.right * (v * .02f);
+            gameObject.transform.position += -transform.right * (v * (1.5f * Time.deltaTime));
 
             gameObject.transform.localEulerAngles = new Vector3(0f,
             transform.eulerAngles.y + ((h * speed) * Time.deltaTime), 0f);
