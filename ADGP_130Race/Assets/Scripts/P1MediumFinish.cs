@@ -8,10 +8,16 @@ public class P1MediumFinish : MonoBehaviour
     public bool finished = false;
     public GUIText timer;
     public float raceTime = 0.0f;
+    //public bool racePaused = false;
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider other)
     {
-        finished = true;
+        //racePaused = true;
+
+        if (other.CompareTag("Player"))
+        {
+            finished = true;
+        }
     }
 
     void OnGUI()
@@ -41,5 +47,9 @@ public class P1MediumFinish : MonoBehaviour
             raceTime = raceTime + 1 * Time.deltaTime;
             timer.text = raceTime.ToString("f2");
         }
+        //if (racePaused == true)
+        //{
+        //    Time.timeScale = 0.0f;
+        //}
     }
 }
