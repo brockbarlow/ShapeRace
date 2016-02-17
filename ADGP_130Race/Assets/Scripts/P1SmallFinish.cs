@@ -18,16 +18,16 @@ public class P1SmallFinish : MonoBehaviour
     {
         if (finished == true)
         {
-            GUI.Label(new Rect(Screen.width / 2, Screen.height / 2, 100, 20), "Finish!");
-            if (GUI.Button(new Rect(10, 50, 300, 40), "Restart Game"))
+            GUI.Button(new Rect(10, 50, 300, 40), "Finish!");
+            if (GUI.Button(new Rect(10, 100, 300, 40), "Restart Game"))
             {
                 SceneManager.LoadScene("P1 Small Track");
             }
-            if (GUI.Button(new Rect(10, 100, 300, 40), "Back to Title Screen"))
+            if (GUI.Button(new Rect(10, 150, 300, 40), "Back to Title Screen"))
             {
                 SceneManager.LoadScene("Title Menu");
             }
-            if (GUI.Button(new Rect(10, 150, 300, 40), "Exit Game"))
+            if (GUI.Button(new Rect(10, 200, 300, 40), "Exit Game"))
             {
                 Application.Quit();
             }

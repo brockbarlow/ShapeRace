@@ -125,7 +125,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 05361e20cc2308b44a377252f3a0e406, type: 2}
+  - {fileID: 2100000, guid: 08c408a1fdd6cd641b58ee58bfcd109c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -437,7 +437,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 05361e20cc2308b44a377252f3a0e406, type: 2}
+  - {fileID: 2100000, guid: 08c408a1fdd6cd641b58ee58bfcd109c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -501,7 +501,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 05361e20cc2308b44a377252f3a0e406, type: 2}
+  - {fileID: 2100000, guid: 08c408a1fdd6cd641b58ee58bfcd109c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1278,7 +1278,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 05361e20cc2308b44a377252f3a0e406, type: 2}
+  - {fileID: 2100000, guid: 08c408a1fdd6cd641b58ee58bfcd109c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -1339,7 +1339,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f213f47a3ab56634894b9099d290e41c, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: f213f47a3ab56634894b9099d290e41c, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1361,6 +1361,14 @@ Prefab:
       propertyPath: m_Name
       value: player1
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: f213f47a3ab56634894b9099d290e41c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 08c408a1fdd6cd641b58ee58bfcd109c, type: 2}
+    - target: {fileID: 2300004, guid: f213f47a3ab56634894b9099d290e41c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 08c408a1fdd6cd641b58ee58bfcd109c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f213f47a3ab56634894b9099d290e41c, type: 3}
   m_IsPrefabParent: 0
@@ -1686,7 +1694,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
 --- !u!1 &1156886418
 GameObject:
   m_ObjectHideFlags: 0
@@ -2270,7 +2278,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 437518, guid: 368c95e8ea439d745b0504ead88044be, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2390116, guid: 368c95e8ea439d745b0504ead88044be, type: 2}
       propertyPath: m_Materials.Array.data[0]
@@ -2743,7 +2751,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f213f47a3ab56634894b9099d290e41c, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: f213f47a3ab56634894b9099d290e41c, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2765,6 +2773,14 @@ Prefab:
       propertyPath: m_Name
       value: player2
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: f213f47a3ab56634894b9099d290e41c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 08c408a1fdd6cd641b58ee58bfcd109c, type: 2}
+    - target: {fileID: 2300004, guid: f213f47a3ab56634894b9099d290e41c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 08c408a1fdd6cd641b58ee58bfcd109c, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f213f47a3ab56634894b9099d290e41c, type: 3}
   m_IsPrefabParent: 0
@@ -3107,6 +3123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finished: 0
+  finished2: 0
 --- !u!1 &2105140579
 GameObject:
   m_ObjectHideFlags: 0
