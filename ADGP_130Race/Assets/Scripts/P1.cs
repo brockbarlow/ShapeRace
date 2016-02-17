@@ -19,7 +19,7 @@ public class P1 : MonoBehaviour
         float h = Input.GetAxis("Horizontal") * speed;
         float v = Input.GetAxis("Vertical") * speed;
 
-        gameObject.transform.position += transform.forward * (v * .02f);
+        gameObject.transform.position += -transform.right * (v * .02f);
 
         gameObject.transform.localEulerAngles = new Vector3(0f,
         transform.eulerAngles.y + ((h * speed) * Time.deltaTime), 0f);
