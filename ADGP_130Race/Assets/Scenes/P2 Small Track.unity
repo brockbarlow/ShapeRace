@@ -1769,11 +1769,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1126572325}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fbc44fbfb1d397459fb84dc4586f071, type: 3}
+  m_Script: {fileID: 11500000, guid: 16237238f9fa5ea42947e8e0b5e6f5fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   finished: 0
   finished2: 0
+  racePaused: 0
 --- !u!23 &1126572328
 MeshRenderer:
   m_ObjectHideFlags: 0

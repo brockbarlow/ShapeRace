@@ -264,7 +264,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1110392024}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6add9bdffa56f04eab687ab8994e706, type: 3}
+  m_Script: {fileID: 11500000, guid: 7589e2b55c62b0743be12afd990684c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1110392026
@@ -502,7 +502,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1110392025}
-        m_MethodName: OnClick
+        m_MethodName: toP1Menu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -696,7 +696,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2046206648}
-        m_MethodName: OnClick
+        m_MethodName: BackToTitle
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -984,7 +984,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2028293041}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfb0ef0833f72034296cc5e5a57ad963, type: 3}
+  m_Script: {fileID: 11500000, guid: 7589e2b55c62b0743be12afd990684c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &2028293043
@@ -1023,7 +1023,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2046206647}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8752df0e1a813eb4790dd4ad57a2d739, type: 3}
+  m_Script: {fileID: 11500000, guid: 7589e2b55c62b0743be12afd990684c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &2046206649
@@ -1114,7 +1114,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 2028293042}
-        m_MethodName: OnClick
+        m_MethodName: toP2Menu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

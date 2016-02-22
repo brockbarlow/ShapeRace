@@ -182,7 +182,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 104107690}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1975043e7d388584797c2cc48c2a6b97, type: 3}
+  m_Script: {fileID: 11500000, guid: 7589e2b55c62b0743be12afd990684c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &104107692
@@ -514,7 +514,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 940269905}
-        m_MethodName: OnClick
+        m_MethodName: quitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -583,7 +583,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 940269904}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 838d0e1def7b28b40a8d42e003b0b82a, type: 3}
+  m_Script: {fileID: 11500000, guid: 7589e2b55c62b0743be12afd990684c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &940269906
@@ -820,7 +820,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1259444574}
-        m_MethodName: OnClick
+        m_MethodName: howToGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -889,7 +889,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1259444573}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6b5f21d39b7de049b8513082e767f4a, type: 3}
+  m_Script: {fileID: 11500000, guid: 7589e2b55c62b0743be12afd990684c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &1259444575
@@ -980,7 +980,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 104107691}
-        m_MethodName: OnClick
+        m_MethodName: modeGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
