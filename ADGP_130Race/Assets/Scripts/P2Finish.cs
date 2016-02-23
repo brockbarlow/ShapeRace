@@ -33,13 +33,15 @@ public class P2Finish : MonoBehaviour {
     {
         if (finished == true)
         {
-            GUI.Button(new Rect(10, 50, 300, 40), "P1 is the Winner!");
-            GUI.Button(new Rect(10, 100, 300, 40), "Please Press ESC");
+            GUI.color = Color.red;
+            GUI.Label(new Rect(140, 50, 300, 40), "P1 is the Winner!");
+            GUI.Label(new Rect(135, 100, 300, 40), "Please Press ESC");
         }
         if (finished2 == true)
         {
-            GUI.Button(new Rect(10, 50, 300, 40), "P2 is the Winner!");
-            GUI.Button(new Rect(10, 100, 300, 40), "Please Press ESC");
+            GUI.color = Color.blue;
+            GUI.Label(new Rect(140, 50, 300, 40), "P2 is the Winner!");
+            GUI.Label(new Rect(135, 100, 300, 40), "Please Press ESC");
         }
     }
 }

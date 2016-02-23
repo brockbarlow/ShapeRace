@@ -19,8 +19,9 @@ public class P1Finish : MonoBehaviour {
     {
         if (finished == true)
         {
-            GUI.Button(new Rect(10, 50, 300, 40), "Finish!");
-            GUI.Button(new Rect(10, 100, 300, 40), "Please Press ESC");
+            GUI.color = Color.red;
+            GUI.Label(new Rect(140, 50, 300, 40), "Finish!");
+            GUI.Label(new Rect(105, 100, 300, 40), "Please Press ESC");
         }
     }
 
